@@ -8,13 +8,24 @@ du sujet.
 ## Architecture
 
 ```
-GitHub Pages (statique)          Cloudflare Worker (proxy)         OpenAI
-┌───────────────────┐            ┌────────────────────┐            ┌──────┐
-│ index.html         │  photo +   │ cache OPENAI_API_KEY │  edits    │      │
-│ app.js              ─────stp──▶│ construit le prompt  ─────────▶ │ API  │
-│ /stp/*.stp.json     │  (POST)   │ (Prompt2.md + STP)   │           │      │
-│ /assets/styles/*     │◀──image──┤                       │◀──image──┤      │
-└───────────────────┘            └────────────────────┘            └──────┘
+GitHub Pages (statique)
+  - index.html, app.js, styles.config.js
+  - /stp/*.stp.json
+  - /assets/styles/*
+        |
+        |  photo + stp   (POST)
+        v
+Cloudflare Worker (proxy)
+  - garde OPENAI_API_KEY en secret (jamais côté navigateur)
+  - construit le prompt = Prompt2.md + STP choisi
+        |
+        |  image + prompt   (edits)
+        v
+OpenAI Images API
+        |
+        |  image générée
+        v
+retour jusqu'au navigateur (affichée + téléchargeable)
 ```
 
 La clé API OpenAI n'existe jamais côté navigateur : elle est stockée comme
