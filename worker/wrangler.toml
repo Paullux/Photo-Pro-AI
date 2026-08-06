@@ -4,7 +4,7 @@ compatibility_date = "2024-11-01"
 
 [vars]
 # Liste d'origines autorisées séparées par des virgules.
-ALLOWED_ORIGIN = "https://paullux.github.io,https://photo-pro-ai.pages.dev"
+ALLOWED_ORIGIN = "https://paullux.github.io,https://photo-pro-ai.pages.dev,https://photo-pro-ai.paulwoisard.fr"
 
 # La clé API n'est jamais stockée ici. Elle se configure avec :
 #   wrangler secret put OPENAI_API_KEY
