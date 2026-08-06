@@ -32,14 +32,17 @@
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="bg-glow" aria-hidden="true"></div>
+
   <header class="page-header">
+    <span class="eyebrow">Portraits professionnels par IA</span>
     <h1>Photo Pro</h1>
     <p>Transforme une photo en portrait professionnel, sans jamais changer qui tu es.</p>
   </header>
 
   <main class="layout">
     <section class="panel" id="upload-panel">
-      <h2>1. Ta photo</h2>
+      <h2><span class="step">1</span>Ta photo</h2>
       <label class="dropzone" id="dropzone" for="photo-input">
         <img id="preview" alt="" hidden />
         <span id="dropzone-text">Clique ou dépose une photo ici</span>
@@ -48,12 +51,12 @@
     </section>
 
     <section class="panel" id="style-panel">
-      <h2>2. Style</h2>
+      <h2><span class="step">2</span>Style</h2>
       <div class="style-grid" id="style-grid"></div>
     </section>
 
     <section class="panel" id="generate-panel">
-      <h2>3. Génération</h2>
+      <h2><span class="step">3</span>Génération</h2>
       <button id="generate-btn" disabled>Générer le portrait</button>
       <p class="status" id="status-text"></p>
       <div class="result" id="result" hidden>
