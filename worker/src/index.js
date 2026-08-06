@@ -190,8 +190,15 @@ export default {
 };
 
 function buildCorsHeaders(origin, env) {
-  const allowed = env.ALLOWED_ORIGIN;
-  const allowOrigin = allowed === "*" ? "*" : allowed === origin ? origin : allowed || "null";
+  const allowedList = (env.ALLOWED_ORIGIN || "")
+    .split(",")
+    .map((o) => o.trim())
+    .filter(Boolean);
+  const allowOrigin = allowedList.includes("*")
+    ? "*"
+    : allowedList.includes(origin)
+      ? origin
+      : allowedList[0] || "null";
   return {
     "Access-Control-Allow-Origin": allowOrigin,
     "Access-Control-Allow-Methods": "POST, OPTIONS",

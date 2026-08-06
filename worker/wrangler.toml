@@ -3,7 +3,8 @@ main = "src/index.js"
 compatibility_date = "2024-11-01"
 
 [vars]
-ALLOWED_ORIGIN = "https://paullux.github.io"
+# Liste d'origines autorisées séparées par des virgules.
+ALLOWED_ORIGIN = "https://paullux.github.io,https://photo-pro-ai.pages.dev"
 
 # La clé API n'est jamais stockée ici. Elle se configure avec :
 #   wrangler secret put OPENAI_API_KEY
