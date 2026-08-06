@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Photo Pro — Portraits professionnels par IA</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="page-header">
+    <h1>Photo Pro</h1>
+    <p>Transforme une photo en portrait professionnel, sans jamais changer qui tu es.</p>
+  </header>
+
+  <main class="layout">
+    <section class="panel" id="upload-panel">
+      <h2>1. Ta photo</h2>
+      <label class="dropzone" id="dropzone" for="photo-input">
+        <img id="preview" alt="" hidden />
+        <span id="dropzone-text">Clique ou dépose une photo ici</span>
+      </label>
+      <input type="file" id="photo-input" accept="image/png,image/jpeg,image/webp" hidden />
+    </section>
+
+    <section class="panel" id="style-panel">
+      <h2>2. Style</h2>
+      <div class="style-grid" id="style-grid"></div>
+    </section>
+
+    <section class="panel" id="generate-panel">
+      <h2>3. Génération</h2>
+      <button id="generate-btn" disabled>Générer le portrait</button>
+      <p class="status" id="status-text"></p>
+      <div class="result" id="result" hidden>
+        <img id="result-image" alt="Portrait généré" />
+        <a id="download-link" download="portrait.png">Télécharger</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <p>Le traitement passe par un proxy qui masque la clé API — voir <code>README.md</code>.</p>
+  </footer>
+
+  <script src="styles.config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,328 @@
+{
+  "camera": {
+    "framing": {
+      "value": "tight_head_and_shoulders_portrait",
+      "confidence": 0.99,
+      "status": "measured",
+      "transferable": true,
+      "priority": "CRITICAL"
+    },
+    "angle": {
+      "value": "eye_level",
+      "confidence": 0.98,
+      "status": "measured",
+      "transferable": true,
+      "priority": "HIGH"
+    },
+    "perspective": {
+      "value": "neutral",
+      "confidence": 0.96,
+      "status": "measured",
+      "transferable": true,
+      "priority": "HIGH"
+    }
+  },
+  "lens": {
+    "estimated_focal_length": {
+      "value": "85_to_105mm_equivalent",
+      "confidence": 0.86,
+      "status": "estimated",
+      "transferable": true,
+      "priority": "HIGH"
+    },
+    "distortion": {
+      "value": "negligible",
+      "confidence": 0.97,
+      "status": "measured",
+      "transferable": true,
+      "priority": "MEDIUM"
+    }
+  },
+  "composition": {
+    "crop": {
+      "value": "close_editorial_headshot",
+      "confidence": 0.99,
+      "status": "measured",
+      "transferable": true,
+      "priority": "CRITICAL"
+    },
+    "subject_alignment": {
+      "value": "centered",
+      "confidence": 0.99,
+      "status": "measured",
+      "transferable": true,
+      "priority": "HIGH"
+    },
+    "negative_space": {
+      "value": "minimal",
+      "confidence": 0.96,
+      "status": "measured",
+      "transferable": true,
+      "priority": "MEDIUM"
+    }
+  },
+  "lighting": {
+    "key_light": {
+      "value": "large_softbox_front_left_approximately_45_degrees",
+      "confidence": 0.95,
+      "status": "estimated",
+      "transferable": true,
+      "priority": "CRITICAL"
+    },
+    "fill_light": {
+      "value": "soft_front_fill",
+      "confidence": 0.88,
+      "status": "estimated",
+      "transferable": true,
+      "priority": "HIGH"
+    },
+    "rim_light": {
+      "value": "very_subtle_right_edge",
+      "confidence": 0.63,
+      "status": "estimated",
+      "transferable": true,
+      "priority": "LOW"
+    },
+    "light_softness": {
+      "value": "very_soft",
+      "confidence": 0.98,
+      "status": "measured",
+      "transferable": true,
+      "priority": "CRITICAL"
+    },
+    "light_ratio": {
+      "value": "approximately_2.5_to_1",
+      "confidence": 0.79,
+      "status": "estimated",
+      "transferable": true,
+      "priority": "HIGH"
+    }
+  },
+  "background": {
+    "brightness": {
+      "value": "dark",
+      "confidence": 0.99,
+      "status": "measured",
+      "transferable": true,
+      "priority": "HIGH"
+    },
+    "blur_strength": {
+      "value": "moderate",
+      "confidence": 0.96,
+      "status": "measured",
+      "transferable": true,
+      "priority": "HIGH"
+    },
+    "structure": {
+      "value": "plain_dark_gradient",
+      "confidence": 0.98,
+      "status": "measured",
+      "transferable": true,
+      "priority": "MEDIUM"
+    }
+  },
+  "depth_of_field": {
+    "apparent_aperture": {
+      "value": "f2.8_to_f4_equivalent",
+      "confidence": 0.83,
+      "status": "estimated",
+      "transferable": true,
+      "priority": "CRITICAL"
+    },
+    "subject_sharpness": {
+      "value": "very_high",
+      "confidence": 0.99,
+      "status": "measured",
+      "transferable": true,
+      "priority": "HIGH"
+    }
+  },
+  "focus": {
+    "focus_plane": {
+      "value": "eyes_and_face",
+      "confidence": 0.99,
+      "status": "measured",
+      "transferable": true,
+      "priority": "CRITICAL"
+    }
+  },
+  "exposure": {
+    "overall": {
+      "value": "slightly_bright",
+      "confidence": 0.96,
+      "status": "measured",
+      "transferable": true,
+      "priority": "HIGH"
+    }
+  },
+  "white_balance": {
+    "temperature": {
+      "value": "neutral_slightly_warm_5200K_est",
+      "confidence": 0.81,
+      "status": "estimated",
+      "transferable": true,
+      "priority": "HIGH"
+    }
+  },
+  "color_palette": {
+    "value": [
+      "charcoal_black",
+      "cool_gray",
+      "white",
+      "neutral_skin_tones"
+    ],
+    "confidence": 0.99,
+    "status": "measured",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "color_grading": {
+    "value": "neutral_professional_headshot",
+    "confidence": 0.95,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "CRITICAL"
+  },
+  "contrast": {
+    "value": "medium_high",
+    "confidence": 0.98,
+    "status": "measured",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "dynamic_range": {
+    "value": "wide",
+    "confidence": 0.88,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "black_point": {
+    "value": "deep",
+    "confidence": 0.91,
+    "status": "measured",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "white_point": {
+    "value": "controlled",
+    "confidence": 0.90,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "highlights": {
+    "value": "soft_controlled",
+    "confidence": 0.96,
+    "status": "measured",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "shadows": {
+    "value": "rich_with_detail",
+    "confidence": 0.95,
+    "status": "measured",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "midtone_curve": {
+    "value": "smooth",
+    "confidence": 0.90,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "skin_rendering": {
+    "value": "natural_light_retouching",
+    "confidence": 0.95,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "sharpness": {
+    "value": "high",
+    "confidence": 0.98,
+    "status": "measured",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "microcontrast": {
+    "value": "moderate_high",
+    "confidence": 0.86,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "noise": {
+    "value": "imperceptible",
+    "confidence": 0.99,
+    "status": "measured",
+    "transferable": true,
+    "priority": "LOW"
+  },
+  "grain": {
+    "value": "none_visible",
+    "confidence": 0.99,
+    "status": "measured",
+    "transferable": true,
+    "priority": "LOW"
+  },
+  "texture": {
+    "value": "clean_with_preserved_skin_detail",
+    "confidence": 0.95,
+    "status": "measured",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "bokeh": {
+    "value": "soft_uniform_background_blur",
+    "confidence": 0.95,
+    "status": "measured",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "environment": {
+    "value": "studio_dark_background",
+    "confidence": 0.99,
+    "status": "measured",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "cinematic_signature": {
+    "value": "executive_studio_headshot",
+    "confidence": 0.92,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "non_transferable": [
+    "identity",
+    "face",
+    "hair",
+    "facial_hair",
+    "body_shape",
+    "skin_tone",
+    "clothing",
+    "accessories",
+    "expression",
+    "pose"
+  ],
+  "transfer_order": [
+    "camera",
+    "composition",
+    "lighting",
+    "depth_of_field",
+    "background",
+    "white_balance",
+    "color_palette",
+    "color_grading",
+    "contrast",
+    "dynamic_range",
+    "skin_rendering",
+    "texture",
+    "sharpness",
+    "noise",
+    "grain"
+  ],
+  "professional_summary": "Portrait studio réalisé avec un cadrage serré et une perspective naturelle proche d'un téléobjectif court. L'éclairage principal est très diffus, légèrement déporté sur l'avant gauche, accompagné d'un remplissage discret produisant des ombres douces et un contraste moyen à élevé. Le fond est sombre, uniforme et légèrement dégradé, avec un flou modéré permettant une bonne séparation du sujet. La balance des blancs est neutre à légèrement chaude, l'étalonnage reste sobre et professionnel, la netteté est élevée, le bruit est imperceptible et le rendu global correspond à une photographie corporate haut de gamme destinée à un profil exécutif."
+}

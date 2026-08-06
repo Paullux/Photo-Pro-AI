@@ -1,0 +1,9 @@
+name = "photo-pro-worker"
+main = "src/index.js"
+compatibility_date = "2024-11-01"
+
+[vars]
+ALLOWED_ORIGIN = "https://paullux.github.io"
+
+# La clé API n'est jamais stockée ici. Elle se configure avec :
+#   wrangler secret put OPENAI_API_KEY
