@@ -1,0 +1,285 @@
+{
+  "camera": {
+    "value": {
+      "capture_type": "environmental portrait",
+      "camera_model": "unknown",
+      "sensor_format": "unknown"
+    },
+    "confidence": 0.45,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "CRITICAL"
+  },
+  "lens": {
+    "value": {
+      "focal_length_equivalent": "approximately 85-135 mm",
+      "aperture": "unknown",
+      "distortion": "minimal"
+    },
+    "confidence": 0.77,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "CRITICAL"
+  },
+  "composition": {
+    "value": {
+      "orientation": "portrait",
+      "framing": "medium portrait",
+      "camera_angle": "eye level",
+      "camera_distance": "medium",
+      "subject_rotation": "slight",
+      "headroom": "moderate",
+      "centering": "slightly offset"
+    },
+    "confidence": 0.99,
+    "status": "measured",
+    "transferable": true,
+    "priority": "CRITICAL"
+  },
+  "lighting": {
+    "value": {
+      "lighting_style": "soft diffused daylight",
+      "key_light": "large diffused source from camera-left",
+      "fill_light": "strong ambient fill",
+      "rim_light": "not measurable",
+      "lighting_ratio": "low",
+      "shadow_softness": "very soft"
+    },
+    "confidence": 0.98,
+    "status": "measured",
+    "transferable": true,
+    "priority": "CRITICAL"
+  },
+  "background": {
+    "value": {
+      "type": "modern office interior",
+      "focus_state": "strongly defocused",
+      "brightness": "high",
+      "background_elements": "glass partitions and office furniture visible but blurred"
+    },
+    "confidence": 0.99,
+    "status": "measured",
+    "transferable": true,
+    "priority": "CRITICAL"
+  },
+  "depth_of_field": {
+    "value": {
+      "depth": "shallow",
+      "background_blur": "strong"
+    },
+    "confidence": 0.98,
+    "status": "measured",
+    "transferable": true,
+    "priority": "CRITICAL"
+  },
+  "focus": {
+    "value": {
+      "focus_target": "front focal plane",
+      "focus_accuracy": "high"
+    },
+    "confidence": 0.99,
+    "status": "measured",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "exposure": {
+    "value": {
+      "overall": "high-key",
+      "clipping": "not visible"
+    },
+    "confidence": 0.98,
+    "status": "measured",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "white_balance": {
+    "value": {
+      "temperature": "slightly cool",
+      "tint": "neutral"
+    },
+    "confidence": 0.96,
+    "status": "measured",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "color_palette": {
+    "value": {
+      "dominant_colors": [
+        "cool white",
+        "light blue",
+        "gray",
+        "deep navy",
+        "neutral skin tones"
+      ],
+      "saturation": "moderate"
+    },
+    "confidence": 0.99,
+    "status": "measured",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "color_grading": {
+    "value": {
+      "style": "neutral commercial grading",
+      "color_bias": "slightly cool"
+    },
+    "confidence": 0.96,
+    "status": "measured",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "contrast": {
+    "value": "moderate",
+    "confidence": 0.98,
+    "status": "measured",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "dynamic_range": {
+    "value": "wide",
+    "confidence": 0.89,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "black_point": {
+    "value": "slightly elevated",
+    "confidence": 0.83,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "white_point": {
+    "value": "near reference white without clipping",
+    "confidence": 0.92,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "highlights": {
+    "value": "controlled",
+    "confidence": 0.98,
+    "status": "measured",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "shadows": {
+    "value": "open with retained detail",
+    "confidence": 0.97,
+    "status": "measured",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "midtone_curve": {
+    "value": "smooth with gentle compression",
+    "confidence": 0.82,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "skin_rendering": {
+    "value": {
+      "tone": "natural",
+      "retouching": "light",
+      "specular_control": "good"
+    },
+    "confidence": 0.88,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "sharpness": {
+    "value": "high",
+    "confidence": 0.99,
+    "status": "measured",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "microcontrast": {
+    "value": "moderate",
+    "confidence": 0.87,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "noise": {
+    "value": "very low",
+    "confidence": 0.99,
+    "status": "measured",
+    "transferable": true,
+    "priority": "LOW"
+  },
+  "grain": {
+    "value": "none visible",
+    "confidence": 1.0,
+    "status": "measured",
+    "transferable": true,
+    "priority": "LOW"
+  },
+  "texture": {
+    "value": "clean with moderate detail preservation",
+    "confidence": 0.90,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "bokeh": {
+    "value": {
+      "strength": "strong",
+      "transition": "smooth",
+      "shape": "diffuse"
+    },
+    "confidence": 0.92,
+    "status": "measured",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "environment": {
+    "value": "bright indoor office environment",
+    "confidence": 0.99,
+    "status": "measured",
+    "transferable": true,
+    "priority": "LOW"
+  },
+  "cinematic_signature": {
+    "value": "clean commercial corporate portrait with cool-neutral rendering",
+    "confidence": 0.94,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "LOW"
+  },
+  "non_transferable": [
+    "identity",
+    "face geometry",
+    "facial expression",
+    "hair",
+    "body shape",
+    "body proportions",
+    "pose",
+    "clothing",
+    "accessories",
+    "skin texture unique to the subject",
+    "skin marks",
+    "age",
+    "sex",
+    "ethnicity"
+  ],
+  "transfer_order": [
+    "camera",
+    "composition",
+    "lighting",
+    "depth_of_field",
+    "background",
+    "white_balance",
+    "color_palette",
+    "grading",
+    "contrast",
+    "dynamic_range",
+    "skin_rendering",
+    "texture",
+    "sharpness",
+    "noise",
+    "grain"
+  ],
+  "professional_summary": "Environmental portrait captured at eye level using a short-telephoto perspective and medium framing. Illumination comes from a large diffused source positioned camera-left, supplemented by abundant ambient fill, producing a low lighting ratio with very soft shadows. The image is exposed in a high-key style with controlled highlights, open shadows and no visible clipping. The background is a bright modern office with extensive glass surfaces rendered strongly out of focus through a shallow depth of field. White balance is slightly cool while remaining neutral overall. The palette is dominated by cool whites, light blues, neutral grays and deep navy tones with moderate saturation. Processing emphasizes high sharpness, moderate microcontrast, clean texture, virtually no visible noise or grain and light retouching. The rendering corresponds to a neutral commercial corporate photography setup optimized for a bright, clean and technically consistent appearance."
+}

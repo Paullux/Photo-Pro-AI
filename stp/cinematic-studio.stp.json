@@ -1,0 +1,286 @@
+{
+  "camera": {
+    "value": {
+      "capture_type": "environmental portrait",
+      "camera_model": "unknown",
+      "sensor_format": "unknown"
+    },
+    "confidence": 0.45,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "CRITICAL"
+  },
+  "lens": {
+    "value": {
+      "focal_length_equivalent": "approximately 85-135 mm",
+      "aperture": "unknown",
+      "distortion": "minimal"
+    },
+    "confidence": 0.80,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "CRITICAL"
+  },
+  "composition": {
+    "value": {
+      "orientation": "portrait",
+      "framing": "medium portrait",
+      "camera_angle": "eye level",
+      "camera_distance": "medium",
+      "subject_rotation": "slight",
+      "headroom": "moderate",
+      "centering": "slightly offset"
+    },
+    "confidence": 0.99,
+    "status": "measured",
+    "transferable": true,
+    "priority": "CRITICAL"
+  },
+  "lighting": {
+    "value": {
+      "lighting_style": "mixed directional lighting",
+      "key_light": "soft warm source from camera-right",
+      "fill_light": "weak cool ambient fill from camera-left",
+      "rim_light": "subtle warm edge illumination",
+      "lighting_ratio": "high",
+      "shadow_softness": "moderately soft"
+    },
+    "confidence": 0.98,
+    "status": "measured",
+    "transferable": true,
+    "priority": "CRITICAL"
+  },
+  "background": {
+    "value": {
+      "type": "night urban environment",
+      "focus_state": "strongly defocused",
+      "brightness": "low",
+      "background_lights": "multiple out-of-focus point light sources"
+    },
+    "confidence": 0.99,
+    "status": "measured",
+    "transferable": true,
+    "priority": "CRITICAL"
+  },
+  "depth_of_field": {
+    "value": {
+      "depth": "shallow",
+      "background_blur": "strong"
+    },
+    "confidence": 0.98,
+    "status": "measured",
+    "transferable": true,
+    "priority": "CRITICAL"
+  },
+  "focus": {
+    "value": {
+      "focus_target": "front focal plane",
+      "focus_accuracy": "high"
+    },
+    "confidence": 0.99,
+    "status": "measured",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "exposure": {
+    "value": {
+      "overall": "low-key",
+      "clipping": "not visible"
+    },
+    "confidence": 0.97,
+    "status": "measured",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "white_balance": {
+    "value": {
+      "temperature": "mixed",
+      "tint": "neutral"
+    },
+    "confidence": 0.97,
+    "status": "measured",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "color_palette": {
+    "value": {
+      "dominant_colors": [
+        "teal",
+        "orange",
+        "deep blue",
+        "warm amber",
+        "black"
+      ],
+      "saturation": "moderately high"
+    },
+    "confidence": 0.99,
+    "status": "measured",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "color_grading": {
+    "value": {
+      "style": "split complementary grading",
+      "shadow_bias": "teal",
+      "highlight_bias": "orange"
+    },
+    "confidence": 0.99,
+    "status": "measured",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "contrast": {
+    "value": "high",
+    "confidence": 0.99,
+    "status": "measured",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "dynamic_range": {
+    "value": "wide",
+    "confidence": 0.87,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "black_point": {
+    "value": "deep",
+    "confidence": 0.95,
+    "status": "measured",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "white_point": {
+    "value": "below clipping",
+    "confidence": 0.91,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "highlights": {
+    "value": "controlled with warm emphasis",
+    "confidence": 0.98,
+    "status": "measured",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "shadows": {
+    "value": "deep with partial detail retention",
+    "confidence": 0.98,
+    "status": "measured",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "midtone_curve": {
+    "value": "compressed with increased local contrast",
+    "confidence": 0.87,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "skin_rendering": {
+    "value": {
+      "tone": "warm",
+      "retouching": "light",
+      "specular_control": "moderate"
+    },
+    "confidence": 0.90,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "sharpness": {
+    "value": "high",
+    "confidence": 0.98,
+    "status": "measured",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "microcontrast": {
+    "value": "high",
+    "confidence": 0.94,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "noise": {
+    "value": "low",
+    "confidence": 0.88,
+    "status": "measured",
+    "transferable": true,
+    "priority": "LOW"
+  },
+  "grain": {
+    "value": "fine digital grain visible",
+    "confidence": 0.82,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "LOW"
+  },
+  "texture": {
+    "value": "high detail preservation",
+    "confidence": 0.91,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "bokeh": {
+    "value": {
+      "strength": "strong",
+      "transition": "smooth",
+      "shape": "circular out-of-focus highlights"
+    },
+    "confidence": 0.99,
+    "status": "measured",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "environment": {
+    "value": "night urban environment",
+    "confidence": 0.99,
+    "status": "measured",
+    "transferable": true,
+    "priority": "LOW"
+  },
+  "cinematic_signature": {
+    "value": "teal-orange split color grading with low-key exposure and shallow depth of field",
+    "confidence": 0.99,
+    "status": "measured",
+    "transferable": true,
+    "priority": "LOW"
+  },
+  "non_transferable": [
+    "identity",
+    "face geometry",
+    "facial expression",
+    "hair",
+    "body shape",
+    "body proportions",
+    "pose",
+    "clothing",
+    "accessories",
+    "skin texture unique to the subject",
+    "skin marks",
+    "age",
+    "sex",
+    "ethnicity"
+  ],
+  "transfer_order": [
+    "camera",
+    "composition",
+    "lighting",
+    "depth_of_field",
+    "background",
+    "white_balance",
+    "color_palette",
+    "grading",
+    "contrast",
+    "dynamic_range",
+    "skin_rendering",
+    "texture",
+    "sharpness",
+    "noise",
+    "grain"
+  ],
+  "professional_summary": "Environmental portrait captured at eye level with a short-telephoto perspective and medium framing. The setup combines a warm directional key light from camera-right with a weaker cool ambient fill from camera-left, producing a high lighting ratio while preserving shadow detail. The background is a nighttime urban environment rendered with strong defocus, creating multiple circular point-light highlights. Exposure is low-key with deep blacks and controlled highlights. White balance intentionally combines warm and cool light sources. Color processing applies a split complementary palette with teal shadows and orange highlights while maintaining moderate-to-high saturation. Contrast and local contrast are elevated, sharpness is high, and detail is preserved with only light retouching. Fine digital grain is visible at a low level. The setup emphasizes mixed-color illumination, shallow depth of field, controlled highlight roll-off and strong tonal separation."
+}

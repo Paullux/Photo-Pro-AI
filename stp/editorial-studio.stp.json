@@ -1,0 +1,285 @@
+{
+  "camera": {
+    "value": {
+      "capture_type": "environmental portrait",
+      "camera_model": "unknown",
+      "sensor_format": "unknown"
+    },
+    "confidence": 0.45,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "CRITICAL"
+  },
+  "lens": {
+    "value": {
+      "focal_length_equivalent": "approximately 85-135 mm",
+      "aperture": "unknown",
+      "distortion": "minimal"
+    },
+    "confidence": 0.77,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "CRITICAL"
+  },
+  "composition": {
+    "value": {
+      "orientation": "portrait",
+      "framing": "medium portrait",
+      "camera_angle": "eye level",
+      "camera_distance": "medium",
+      "subject_rotation": "slight",
+      "headroom": "moderate",
+      "centering": "slightly offset"
+    },
+    "confidence": 0.98,
+    "status": "measured",
+    "transferable": true,
+    "priority": "CRITICAL"
+  },
+  "lighting": {
+    "value": {
+      "lighting_style": "single directional hard light",
+      "key_light": "direct light from camera-right, elevated",
+      "fill_light": "minimal",
+      "rim_light": "not measurable",
+      "lighting_ratio": "high",
+      "shadow_softness": "hard"
+    },
+    "confidence": 0.98,
+    "status": "measured",
+    "transferable": true,
+    "priority": "CRITICAL"
+  },
+  "background": {
+    "value": {
+      "type": "textured architectural surface",
+      "focus_state": "slightly defocused",
+      "brightness": "low",
+      "light_pattern": "projected directional shadows"
+    },
+    "confidence": 0.99,
+    "status": "measured",
+    "transferable": true,
+    "priority": "CRITICAL"
+  },
+  "depth_of_field": {
+    "value": {
+      "depth": "moderately shallow",
+      "background_blur": "moderate"
+    },
+    "confidence": 0.95,
+    "status": "measured",
+    "transferable": true,
+    "priority": "CRITICAL"
+  },
+  "focus": {
+    "value": {
+      "focus_target": "front focal plane",
+      "focus_accuracy": "high"
+    },
+    "confidence": 0.98,
+    "status": "measured",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "exposure": {
+    "value": {
+      "overall": "exposed for illuminated areas",
+      "clipping": "not visible"
+    },
+    "confidence": 0.97,
+    "status": "measured",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "white_balance": {
+    "value": {
+      "temperature": "warm",
+      "tint": "neutral"
+    },
+    "confidence": 0.94,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "color_palette": {
+    "value": {
+      "dominant_colors": [
+        "dark gray",
+        "charcoal",
+        "warm beige",
+        "white",
+        "deep neutral"
+      ],
+      "saturation": "moderate"
+    },
+    "confidence": 0.98,
+    "status": "measured",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "color_grading": {
+    "value": {
+      "style": "warm neutral grading",
+      "color_bias": "warm highlights"
+    },
+    "confidence": 0.92,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "contrast": {
+    "value": "high",
+    "confidence": 0.99,
+    "status": "measured",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "dynamic_range": {
+    "value": "wide",
+    "confidence": 0.87,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "black_point": {
+    "value": "deep without visible clipping",
+    "confidence": 0.90,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "white_point": {
+    "value": "near reference white without clipping",
+    "confidence": 0.90,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "highlights": {
+    "value": "strong and controlled",
+    "confidence": 0.98,
+    "status": "measured",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "shadows": {
+    "value": "deep with preserved detail",
+    "confidence": 0.97,
+    "status": "measured",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "midtone_curve": {
+    "value": "compressed with pronounced tonal separation",
+    "confidence": 0.80,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "skin_rendering": {
+    "value": {
+      "tone": "natural with directional illumination",
+      "retouching": "light",
+      "specular_control": "moderate"
+    },
+    "confidence": 0.86,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "sharpness": {
+    "value": "high",
+    "confidence": 0.98,
+    "status": "measured",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "microcontrast": {
+    "value": "high",
+    "confidence": 0.91,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "noise": {
+    "value": "very low",
+    "confidence": 0.99,
+    "status": "measured",
+    "transferable": true,
+    "priority": "LOW"
+  },
+  "grain": {
+    "value": "none visible",
+    "confidence": 1.0,
+    "status": "measured",
+    "transferable": true,
+    "priority": "LOW"
+  },
+  "texture": {
+    "value": "high detail preservation",
+    "confidence": 0.91,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "bokeh": {
+    "value": {
+      "strength": "moderate",
+      "transition": "smooth",
+      "shape": "not measurable"
+    },
+    "confidence": 0.84,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "environment": {
+    "value": "indoor architectural environment",
+    "confidence": 0.97,
+    "status": "measured",
+    "transferable": true,
+    "priority": "LOW"
+  },
+  "cinematic_signature": {
+    "value": "high-contrast directional commercial portrait rendering",
+    "confidence": 0.90,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "LOW"
+  },
+  "non_transferable": [
+    "identity",
+    "face geometry",
+    "facial expression",
+    "hair",
+    "body shape",
+    "body proportions",
+    "pose",
+    "clothing",
+    "accessories",
+    "skin texture unique to the subject",
+    "skin marks",
+    "age",
+    "sex",
+    "ethnicity"
+  ],
+  "transfer_order": [
+    "camera",
+    "composition",
+    "lighting",
+    "depth_of_field",
+    "background",
+    "white_balance",
+    "color_palette",
+    "grading",
+    "contrast",
+    "dynamic_range",
+    "skin_rendering",
+    "texture",
+    "sharpness",
+    "noise",
+    "grain"
+  ],
+  "professional_summary": "Environmental portrait captured at eye level with a short-telephoto perspective and medium framing. Illumination is produced by a single directional hard light positioned high on camera-right, with very limited fill, creating pronounced shadow separation and a high lighting ratio. Exposure prioritizes highlight preservation while maintaining detail in dark regions. The background is an architectural surface with projected shadow patterns and moderate defocus. White balance is warm-neutral. The color palette is dominated by charcoal, dark gray, warm beige and neutral whites with moderate saturation. Image rendering uses high contrast, strong local tonal separation, high sharpness and elevated microcontrast while maintaining very low visible noise and no discernible grain. Processing remains clean with light retouching and no measurable stylized post-processing beyond contrast and warm tonal balance."
+}

@@ -1,0 +1,284 @@
+{
+  "camera": {
+    "value": {
+      "capture_type": "studio portrait",
+      "camera_model": "unknown",
+      "sensor_format": "unknown"
+    },
+    "confidence": 0.45,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "CRITICAL"
+  },
+  "lens": {
+    "value": {
+      "focal_length_equivalent": "approximately 85-135 mm",
+      "aperture": "unknown",
+      "distortion": "minimal"
+    },
+    "confidence": 0.78,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "CRITICAL"
+  },
+  "composition": {
+    "value": {
+      "orientation": "portrait",
+      "framing": "medium portrait",
+      "camera_angle": "eye level",
+      "camera_distance": "medium",
+      "subject_rotation": "slight",
+      "headroom": "moderate",
+      "centering": "slightly offset"
+    },
+    "confidence": 0.99,
+    "status": "measured",
+    "transferable": true,
+    "priority": "CRITICAL"
+  },
+  "lighting": {
+    "value": {
+      "lighting_style": "single directional hard light",
+      "key_light": "camera-left, elevated",
+      "fill_light": "minimal",
+      "rim_light": "not measurable",
+      "lighting_ratio": "very high",
+      "shadow_softness": "hard"
+    },
+    "confidence": 0.99,
+    "status": "measured",
+    "transferable": true,
+    "priority": "CRITICAL"
+  },
+  "background": {
+    "value": {
+      "type": "solid black backdrop",
+      "texture": "not visible",
+      "brightness": "near black",
+      "focus_state": "not measurable"
+    },
+    "confidence": 1.0,
+    "status": "measured",
+    "transferable": true,
+    "priority": "CRITICAL"
+  },
+  "depth_of_field": {
+    "value": {
+      "depth": "moderately shallow",
+      "background_blur": "not measurable"
+    },
+    "confidence": 0.81,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "CRITICAL"
+  },
+  "focus": {
+    "value": {
+      "focus_target": "front focal plane",
+      "focus_accuracy": "high"
+    },
+    "confidence": 0.99,
+    "status": "measured",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "exposure": {
+    "value": {
+      "overall": "low-key",
+      "clipping": "no visible highlight clipping"
+    },
+    "confidence": 0.98,
+    "status": "measured",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "white_balance": {
+    "value": {
+      "temperature": "slightly warm",
+      "tint": "neutral"
+    },
+    "confidence": 0.93,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "color_palette": {
+    "value": {
+      "dominant_colors": [
+        "black",
+        "dark charcoal",
+        "warm skin tones",
+        "deep neutral"
+      ],
+      "saturation": "moderate"
+    },
+    "confidence": 0.99,
+    "status": "measured",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "color_grading": {
+    "value": {
+      "style": "neutral low-key grading",
+      "color_bias": "slightly warm"
+    },
+    "confidence": 0.92,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "contrast": {
+    "value": "very high",
+    "confidence": 1.0,
+    "status": "measured",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "dynamic_range": {
+    "value": "wide",
+    "confidence": 0.87,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "black_point": {
+    "value": "near absolute black",
+    "confidence": 0.99,
+    "status": "measured",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "white_point": {
+    "value": "below clipping",
+    "confidence": 0.90,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "highlights": {
+    "value": "strong and controlled",
+    "confidence": 0.98,
+    "status": "measured",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "shadows": {
+    "value": "deep with partial detail retention",
+    "confidence": 0.99,
+    "status": "measured",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "midtone_curve": {
+    "value": "compressed toward shadows",
+    "confidence": 0.84,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "skin_rendering": {
+    "value": {
+      "tone": "natural under directional lighting",
+      "retouching": "light",
+      "specular_control": "moderate"
+    },
+    "confidence": 0.87,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "sharpness": {
+    "value": "high",
+    "confidence": 0.99,
+    "status": "measured",
+    "transferable": true,
+    "priority": "HIGH"
+  },
+  "microcontrast": {
+    "value": "high",
+    "confidence": 0.93,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "noise": {
+    "value": "very low",
+    "confidence": 0.99,
+    "status": "measured",
+    "transferable": true,
+    "priority": "LOW"
+  },
+  "grain": {
+    "value": "none visible",
+    "confidence": 1.0,
+    "status": "measured",
+    "transferable": true,
+    "priority": "LOW"
+  },
+  "texture": {
+    "value": "high detail preservation",
+    "confidence": 0.91,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "MEDIUM"
+  },
+  "bokeh": {
+    "value": {
+      "strength": "not measurable",
+      "transition": "not measurable",
+      "shape": "not measurable"
+    },
+    "confidence": 0.30,
+    "status": "unknown",
+    "transferable": true,
+    "priority": "LOW"
+  },
+  "environment": {
+    "value": "controlled indoor studio",
+    "confidence": 0.99,
+    "status": "measured",
+    "transferable": true,
+    "priority": "LOW"
+  },
+  "cinematic_signature": {
+    "value": "low-key studio portrait with single-source directional lighting",
+    "confidence": 0.93,
+    "status": "estimated",
+    "transferable": true,
+    "priority": "LOW"
+  },
+  "non_transferable": [
+    "identity",
+    "face geometry",
+    "facial expression",
+    "hair",
+    "body shape",
+    "body proportions",
+    "pose",
+    "clothing",
+    "accessories",
+    "skin texture unique to the subject",
+    "skin marks",
+    "age",
+    "sex",
+    "ethnicity"
+  ],
+  "transfer_order": [
+    "camera",
+    "composition",
+    "lighting",
+    "depth_of_field",
+    "background",
+    "white_balance",
+    "color_palette",
+    "grading",
+    "contrast",
+    "dynamic_range",
+    "skin_rendering",
+    "texture",
+    "sharpness",
+    "noise",
+    "grain"
+  ],
+  "professional_summary": "Studio portrait captured at eye level with a short-telephoto perspective and medium framing. The setup uses a single elevated directional light positioned camera-left with almost no fill illumination, producing a very high lighting ratio, hard shadow transitions and a low-key exposure. The background is a solid black backdrop rendered near absolute black, eliminating visible environmental detail. Exposure preserves highlight detail while allowing extensive shadow regions. White balance is slightly warm and otherwise neutral. The color palette is restricted to black, dark neutral tones and warm natural skin tones with moderate saturation. Image processing emphasizes high sharpness, elevated microcontrast, light retouching, very low visible noise and no discernible grain. Background blur characteristics cannot be reliably measured because the background contains no visible texture. The overall setup is a controlled studio configuration optimized for strong directional lighting and high tonal separation."
+}
