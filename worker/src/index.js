@@ -155,7 +155,7 @@ export default {
       const prompt = `${PROMPT2}\n\nSTP:\n${JSON.stringify(stp)}`;
 
       const upstreamForm = new FormData();
-      upstreamForm.append("model", "gpt-image-1");
+      upstreamForm.append("model", "gpt-image-1.5");
       upstreamForm.append("prompt", prompt);
       upstreamForm.append("image", imageFile, imageFile.name || "photo.png");
       upstreamForm.append("size", "1024x1024");
